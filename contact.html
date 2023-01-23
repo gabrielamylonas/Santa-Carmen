@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gabriela Mylonas">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Santa Carmen Veterinary Hospital</title>
+        <link rel="stylesheet" href="css\reset.css">
+        <link rel="stylesheet" href="css\style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Murecho&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="box">
+                <a href="index.html">
+                    <h1><img src="assets\logo-sm.png" alt="Logo of the Santa Carmen Veterinary Hospital"></h1></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            
+            <form>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" class="standard-input" required placeholder="Ex: Carmen Montemor Mylonas">
+    
+                <label for="email">E-mail</label>
+                <input type="e-mail" id="e-mail" class="standard-input" required placeholder="youremail@email.com">
+    
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" class="standard-input" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="phone">Patient's name</label>
+                <input type="text" id="pname" class="standard-input" placeholder="Ex: Rex">
+
+                <label for="species">Patient's species</label>
+                <select name="species" id="species" class="species">
+                    <option value="" disabled selected hidden>Choose a species</option>
+                    <option value="cat">Cat</option>   
+                    <option value="chicken">Chicken</option>
+                    <option value="cow">Cow</option>
+                    <option value="dog">Dog</option>
+                    <option value="fish">Fish</option>
+                    <option value="horse">Horse</option>
+                    <option value="lizzard">Lizzard</option>
+                    <option value="snake">Snake</option>
+                    <option value="none">None of the options</option>
+                </select>
+                
+                <fieldset>
+                    <legend>Patient's gender</legend>
+                    <label for="checkbox-female"><input type="checkbox" name="gender" value="female" id="checkbox-female"> Female</label>
+    
+                    <label for="checkbox-male"><input type="checkbox" name="gender" value="male" id="checkbox-male"> Male</label>
+                        
+                    <label for="checkbox-unid"><input type="checkbox" name="gender" value="notid" id="radio-unid" checked> Unidentified</label>
+                        
+                </fieldset>
+                
+                <fieldset>
+                <label class="color" for="color">Predominant color:</label>
+                <select name="color" id="color">
+                        <option value="" disabled selected hidden>Choose a color</option>
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="caramel">Caramel</option>
+                        <option value="gray">Gray</option>
+                        <option value="brown">Brown</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="brindle">Brindle</option>
+                        <option value="other">Other</option>
+                        <option value="idk">I don't know how to identify</option>
+                </select>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea cols="70" rows="10" id="message" class="standard-input" required></textarea>
+    
+                <fieldset>
+                    <legend>Prefered contact method</legend>
+                    <label for="radio-email"><input type="radio" name="contact" value="e-mail" id="radio-email"> E-mail</label>
+    
+                    <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone"> Phone</label>
+                        
+                    <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                        
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Prefered contact period</legend>
+                    <select>
+                        <option>Morning</option>
+                        <option>Afternon</option>
+                        <option>Evening</option>
+                    </select>
+                </fieldset>
+    
+                <label class="checkbox"><input type="checkbox" checked>I want to receive e-mails about the Santa Carmen Veterinary Hospital</label >
+    
+                <input type="submit" value="Send" class="send">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Services</th>
+                        <th>Opening hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Emergency</td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Primary Care</td>
+                        <td>8 am ~ 8 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Exams</td>
+                        <td>8 am ~ 8 pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="assets\logo-white.png" alt="Logo of the Santa Carmen Veterinary Hospital">
+            <p class="copyright">&copy; Copyright Santa Carmen - 2022</p>
+        </footer>
+    </body>
+</html>
