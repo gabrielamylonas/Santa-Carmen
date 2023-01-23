@@ -29,10 +29,6 @@ git clone https://github.com/gabrielamylonas/Santa-Carmen.git
 ## :books: Installed libs
 - [Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
 
-## :ballot_box_with_check: Open Tasks
-
-- Adapt the website for responsive design
-
 ## :lock: Licence
 <p>MIT License</p>
 <p>Copyright:copyright: 2023 - Gabriela Mylonas</p>
